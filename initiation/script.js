@@ -6,4 +6,7 @@ console.log(title);
 const btnRed = document.getElementById("btn-red");
 console.log(btnRed, "button red");
 
-
+// Submission action 
+btnRed.addEventListener('click', function(){
+    console.log('cliqued');
+})
