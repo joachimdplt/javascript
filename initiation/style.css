@@ -29,4 +29,16 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    position: relative;
+    animation-name: redColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes redColor{
+ 0%     {left:0px; top:0px;}
+ 25%    {left:200px; top:0px;}
+ 50%    {left:200px; top:200px;} 
+ 75%    {left:0px; top:200px;} 
+ 100%   {left:0px; top:0px;} 
 }
