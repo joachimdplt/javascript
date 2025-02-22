@@ -20,7 +20,7 @@ btnBlue.addEventListener('click', function(){
     add();
 })  
 btnGreen.addEventListener('click', function(){
-    remove();
+    removeCount();
 })  
 
 function add(){
@@ -29,7 +29,7 @@ function add(){
     title.innerText = count;
     //console.log('cliqued');
 }
-function remove(){
+function removeCount(){
     count = count - 1;
     console.log(count, "incremented count")
     title.innerText = count;
