@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html{
+	font-size: 62,5%; /* 1rem vaut 10px */
+}
+
+body{
+	font-size: 1.4rem;
+	font-family: arial;
+	color: white;
+}
+
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #1E2337;
+}
+
+.cookies{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem;
+	opacity: 1;
+	transition: 0.7s;
+}
+
+.cookies-btn{
+	display: flex;
+}
+
+.btn{
+	color: white;
+	padding: 1rem;
+	border: none;
+	border-radius: 10px;
+}
+
+.btn.btn-success{
+	background-color: #1E2337;
+}
+
+.btn.btn-deny{
+	background-color: gray;
+}
