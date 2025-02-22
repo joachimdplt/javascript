@@ -20,5 +20,6 @@ btnBlue.addEventListener('click', function(){
 function add(){
     count = count + 1;
     console.log(count, "incremented count")
+    title.innerText = count;
     //console.log('cliqued');
 }
