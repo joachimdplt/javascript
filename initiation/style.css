@@ -30,8 +30,8 @@ body {
     width: 50px;
     border-radius: 50%;
     position: relative;
-    animation-name: redColor;
-    animation-duration: 5s;
+    animation-name: moveOn;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 #btn-blue{
@@ -40,23 +40,26 @@ body {
     width: 50px;
     border-radius: 50%;
     position: relative;
-    animation-name: blueColor;
-    animation-duration: 10s;
+    animation-name: moveOn;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
-@keyframes redColor{
+#btn-green{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: moveOn;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveOn{
  0%         {left:0px; top:0px;}
  25%        {left:200px; top:0px;}
  50%        {left:200px; top:200px;} 
  75%        {left:0px; top:200px;} 
  100%       {left:0px; top:0px;} 
 }
-
-@keyframes blueColor{
-    0%     {left:0px; top:0px;}
-    25%    {left:0px; top:2000px;}
-    50%    {left:200px; top:200px;} 
-    75%    {left:200px; top:0px;} 
-    100%   {left:0px; top:0px;} 
-   }
