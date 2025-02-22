@@ -11,13 +11,14 @@ console.log(count, "count start")
 
 // Submission action 
 btnRed.addEventListener('click', function(){
-    count = count + 1;
-    console.log(count, "incremented count")
-    //console.log('cliqued');
+    add();
 })
 btnBlue.addEventListener('click', function(){
+    add();
+})  
+
+function add(){
     count = count + 1;
     console.log(count, "incremented count")
     //console.log('cliqued');
-})
-
+}
